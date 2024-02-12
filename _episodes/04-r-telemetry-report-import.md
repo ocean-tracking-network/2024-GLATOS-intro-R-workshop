@@ -12,7 +12,7 @@ Now that we have an idea of what an exploratory workflow might look like with Ti
 
 For the GLATOS Network you will receive Detection Extracts which include all the Tag matches for your animals. These can be used to create many meaningful summary reports.
 
-First, we will comfirm we have our Tag Matches stored in a dataframe.
+First, we will confirm we have our Tag Matches stored in a dataframe.
 
 ~~~
 View(all_dets) #already have our tag matches
@@ -43,14 +43,14 @@ View(walleye_recovery)
 
 walleye_recovery <- walleye_recovery %>% rename(INS_SERIAL_NO = INS_SERIAL_NUMBER) #first, rename INS_SERIAL_NUMBER so they match between the two dataframes.
 
-walleye_recievers <- merge(walleye_deploy, walleye_recovery,
+walleye_receivers <- merge(walleye_deploy, walleye_recovery,
                           by.x = c("GLATOS_PROJECT", "GLATOS_ARRAY", "STATION_NO",
                                     "CONSECUTIVE_DEPLOY_NO", "INS_SERIAL_NO"), 
                           by.y = c("GLATOS_PROJECT", "GLATOS_ARRAY", "STATION_NO", 
                                     "CONSECUTIVE_DEPLOY_NO", "INS_SERIAL_NO"), 
                           all.x=TRUE, all.y=TRUE) #keep all the info from each, merged using the above columns
 
-View(walleye_recievers)
+View(walleye_receivers)
 
 # Tagging metadata
 
