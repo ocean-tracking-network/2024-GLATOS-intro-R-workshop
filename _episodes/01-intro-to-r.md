@@ -34,8 +34,6 @@ library(ggmap)
 
 # Working Directory ####
 
-#Instructors!! since this lesson is mostly base R we're not going to make four copies of it as with the other nodes.
-#Change this one line as befits your audience.
 setwd('YOUR/PATH/TO/data/NODE') #set folder you're going to work in
 getwd() #check working directory
 
@@ -49,11 +47,11 @@ Before we begin the lesson proper, a note on finding additional help. R Librarie
 
 ## Intro to R
 
-Like most programming langauges, we can do basic mathematical operations with R. These, along with variable assignment, form the basis of everything for which we will use R.
+Like most programming languages, we can do basic mathematical operations with R. These, along with variable assignment, form the basis of everything for which we will use R.
 
 ### Operators
 
-Operators in R include standard mathematical operators (+, -, *, /) as well as an assignment operator, <- (a less-than sign followed by a hyphen). The assignment operator is used to associate a value with a variable name (or, to 'assign' the value a name). This lets us refer to that value later, by the name we've given to it. This may look unfamiliar, but it fulfils the same function as the '=' operator in most other languages.
+Operators in R include standard mathematical operators (+, -, *, /) as well as an assignment operator, <- (a less-than sign followed by a hyphen). The assignment operator is used to associate a value with a variable name (or, to 'assign' the value a name). This lets us refer to that value later, by the name we've given to it. This may look unfamiliar, but it fulfills the same function as the '=' operator in most other languages.
 
 ~~~
 3 + 5 #maths! including - , *, /
