@@ -45,31 +45,10 @@ install.packages("viridis")
 
 ```r
 
-# rgdal
-install.packages('rgdal')
-library(rgdal)
-rgdal::getGDALVersionInfo()
-
 # glatos - acoustic telemetry package that does filtering, vis, array simulation, etc.
 install.packages('remotes')
 library(remotes) 
 remotes::install_github('ocean-tracking-network/glatos')
-
-#Additional packages for mapping.
-install.packages('stringr')
-install.packages('mapview')
-install.packages('spdplyr')
-
-# Lubridate - part of Tidyverse, improves the process of creating date objects
-install.packages('lubridate')
-
-#SP and Raster packages for mapping.
-install.packages('sp')
-install.packages('raster')
-
-install.packages('gganimate')
-install.packages('ggspatial')
-
 
 ```
 
