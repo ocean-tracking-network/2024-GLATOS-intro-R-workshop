@@ -49,8 +49,6 @@ install.packages("viridis")
 install.packages('remotes')
 library(remotes) 
 remotes::install_github('ocean-tracking-network/glatos')
-
-
 ```
 
 # Dataset and Code
