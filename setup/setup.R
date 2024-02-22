@@ -39,7 +39,7 @@ install.packages("viridis")
 # glatos - acoustic telemetry package that does filtering, vis, array simulation, etc.
 install.packages('remotes')
 library(remotes) 
-remotes::install_github('ocean-tracking-network/glatos@dev', force=TRUE)
+remotes::install_github('ocean-tracking-network/glatos')
                                                         
 ### Dataset and Code -----
 # Once the packages are installed, you can download the datasets and code for this workshop from https://github.com/ocean-tracking-network/2024-GLATOS-intro-R-workshop.
